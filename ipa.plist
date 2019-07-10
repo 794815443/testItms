@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   ipa.plist
+   TestAlgorithm
+
+   Created by 窦治朋 on 2019/7/10.
+   Copyright (c) 2019 CWI. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>http://10.0.20.251/myipa/MoreWellness.ipa</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>full-size-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+                        <string>http://10.0.20.251/myipa/active.png</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+                        <string>http://10.0.20.251/myipa/active2.png</string>
+                    </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <key>bundle-identifier</key>
+                    <string>cn.morewellness</string>
+                    <key>bundle-version</key>
+                    <string>1.0.0</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>title</key>
+                    <string>test App download</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
